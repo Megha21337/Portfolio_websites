@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="blacken.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="cubeani.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><h1>Welcome</h1></div>
+      
+      <nav>
+        <ul>
+          <li><a href="#Homes">Home</a></li>
+          <li><a href="#Project">Project</a></li>
+          <li><a href="#Journal">Journal</a></li>
+          <li class="social-icons">
+            <a href="https://www.facebook.com/cutee.kiara.5"><i class="fa fa-facebook"></i></a>
+            <a href="https://mobile.twitter.com/MeghaK14464044"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/lostdream_369/"><i class="fa fa-instagram"></i></a>              
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="Homes">
+    
+    <div class="wrapper">
+      <section class="left">
+        <div class="intro">
+          <div class="intro-content">
+            <h2><span class="hello">HELLO</span><br> <span class="im-megha">I'm Megha</span><br></h2>
+            <p>A Web Developer, UI/UX Designer <br> and Programmer<br></p>
+          </div>
+        </div>
+      </section>
+      <section class="right">
+        <div class="cube-image-wrap">
+          <div class="cube-wrap">
+            <div class="cube">
+              <div class="face1">Hello</div>
+              <div class="face2">Explorer</div>
+              <div class="face3">UI</div>
+              <div class="face4">UX</div>
+              <div class="face5">Coder</div>
+              <div class="face6">WebDev</div>
+            </div>
+          </div>
+          <div class="image-wrap">
+            <img src="megha.png" alt="This is me">
+          </div>
+        </div>
+      </section>
+    </div>
+</section>
+<section id="Project">
+
+
+    <div class="divider">
+      <div class="headers ">
+        <h1>Projects</h1>
+      </div>
+    </div>
+
+    <section class="projects">
+      <div class="project-item">
+        <video controls width="350">
+          <source src="vdc_sem2_port1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h2>Project 1</h2>
+        <p>Percentage of educated people who are unemployed increased to 35.3%.<br>Overgrowing population, tough competition to get a job.
+        So,we tried <br>to develop an application that will help the user to first<br> gain knowlegde and then improve their skills through working in industry.</p>
+      </div>
+      <div class="project-item">
+        <video controls width="350">
+          <source src="women_safe_portfolio.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h2>Project 2</h2>
+        <p>The fact that 82 percent of women (primarily between 20-29 years) experienced<br> sexual harassment at bus stops, and 90 percent experienced
+          <br> it on buses as recent as 2018 was reason enough to <br>convince us to work towards tackling this issue.<br>Through this we tried to provide a more fast and safe way.</p>
+      </div>
+      <div class="project-item">
+        <video controls width="350">
+          <source src="GROUP 2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h2>Project 3</h2>
+        <p>We leaned about color pallete and branding and tried to make<br> a complete set of logo,cards,envelop for a AI tech company</p>
+      </div>
+    </section>
+  
+
+    <section id="Journal">
+
+    <div class="divider">
+      <div class="headers">
+        <h1>Journal</h1>
+      </div>
+    
+      <div class="journal" data-aos="fade-left">
+        <a href="vdc.html"><img id="vdcCover" class="crop-img" src="Journal_pic_portfolio.jpg" alt="VDC Journal Cover" />
+      </div>
+    
+      <div class="journal" data-aos="fade-right">
+        <a href="dpp.html"><img id="DppCover" class="crop-img" src="dpp_journal1_portfolio.jpg" alt="Dpp Journal Cover" />
+      </div>
+    </div>
+  </section>
+
+
+  
+    <div class="divider">
+      <div class="headers">
+        <h1>About</h1>
+      </div>
+    
+      <section class="about">
+        <div class="about-header1">
+          <img src="megha2.png" alt="Image Description" width="300px" height="400px" style="margin-left: -300px;">
+          <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hi, my name is Megha and I am a web developer, UI/UX designer, and programmer. I have a passion for creating beautiful and functional websites and applications that make a positive impact on people's lives. </p>
+            <p>Currently pursuing my BTech in Computer Science and Design from IIIT Delhi. I have worked with a variety of projects, ranging from social issues to business. My skills include C++, HTML, CSS, JavaScript, React, and more.</p>
+            <p>When I'm not coding or designing, I enjoy hiking, reading, and spending time with my family and friends.</p>
+          </div>
+        </div>
+      </section>
+    
+    </div>
+  </section> 
+    
+    <style>
+      .about-header1 {
+        display: flex;
+        align-items: flex-start;
+      }
+      
+      .about-header img {
+        margin-right: 30px;
+      }
+      
+      .about-text {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset: 300,
+    duration: 1000,
+  });
+</script>
+
+  </body>
+</html>
